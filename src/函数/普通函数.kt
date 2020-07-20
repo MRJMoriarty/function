@@ -1,3 +1,5 @@
+package 函数
+
 fun show(){}//最基本的函数,无参数，无返回值
 fun show1():Unit{}//与第一个函数等价
 fun show2(): Int{
@@ -13,7 +15,7 @@ fun show4(id: Int = 1):String{
 fun Power(n:Int):Int{
     var power = 1
     for (i in 1..n){
-        power = i*Power(i-1)//函数的递归
+        power = i* Power(i - 1)//函数的递归
     }
     return power
 }
